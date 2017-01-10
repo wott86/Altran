@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0B89B81E2429D0005EA0B9 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0B89B71E2429D0005EA0B9 /* ArrayExtension.swift */; };
+		DB2D5ED51E2280B7008C61EA /* GnomeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D5ED41E2280B7008C61EA /* GnomeListTableViewController.swift */; };
+		DB2D5ED71E228104008C61EA /* GnomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D5ED61E228104008C61EA /* GnomeDetailsViewController.swift */; };
+		DB2D5EDB1E22870E008C61EA /* GnomeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D5EDA1E22870E008C61EA /* GnomeList.swift */; };
+		DB2D5EE51E228BE6008C61EA /* Gnomes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D5EE41E228BE6008C61EA /* Gnomes.swift */; };
+		DB2D5EE71E22AB79008C61EA /* GnomesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D5EE61E22AB79008C61EA /* GnomesTableView.swift */; };
+		DB2D5EEB1E22CCB6008C61EA /* GnomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D5EEA1E22CCB6008C61EA /* GnomeTableViewCell.swift */; };
+		DB7E85441E23DED80088A7D0 /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7E85431E23DED80088A7D0 /* Gnome.swift */; };
+		DB7E85461E23E3F40088A7D0 /* GnomeFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7E85451E23E3F40088A7D0 /* GnomeFetchedResultsController.swift */; };
+		DBA198DA1E21B13E00A33106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA198D91E21B13E00A33106 /* AppDelegate.swift */; };
+		DBA198DF1E21B13E00A33106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA198DD1E21B13E00A33106 /* Main.storyboard */; };
+		DBA198E21E21B13E00A33106 /* Altran.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBA198E01E21B13E00A33106 /* Altran.xcdatamodeld */; };
+		DBA198E41E21B13E00A33106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA198E31E21B13E00A33106 /* Assets.xcassets */; };
+		DBA198E71E21B13E00A33106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA198E51E21B13E00A33106 /* LaunchScreen.storyboard */; };
+		DBD0E1EE1E251C6E002C52E5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD0E1ED1E251C6E002C52E5 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FC3A7C9599261ED86CB85C3 /* Pods-Altran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altran.release.xcconfig"; path = "Pods/Target Support Files/Pods-Altran/Pods-Altran.release.xcconfig"; sourceTree = "<group>"; };
+		72FDA689A27009F00EDC1860 /* Pods-Altran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Altran.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Altran/Pods-Altran.debug.xcconfig"; sourceTree = "<group>"; };
+		88F84EF7E9EA647A66801759 /* Pods_Altran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Altran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0B89B71E2429D0005EA0B9 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		DB2D5ED41E2280B7008C61EA /* GnomeListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeListTableViewController.swift; sourceTree = "<group>"; };
+		DB2D5ED61E228104008C61EA /* GnomeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeDetailsViewController.swift; sourceTree = "<group>"; };
+		DB2D5EDA1E22870E008C61EA /* GnomeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeList.swift; sourceTree = "<group>"; };
+		DB2D5EE41E228BE6008C61EA /* Gnomes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gnomes.swift; sourceTree = "<group>"; };
+		DB2D5EE61E22AB79008C61EA /* GnomesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomesTableView.swift; sourceTree = "<group>"; };
+		DB2D5EEA1E22CCB6008C61EA /* GnomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeTableViewCell.swift; sourceTree = "<group>"; };
+		DB7E85431E23DED80088A7D0 /* Gnome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
+		DB7E85451E23E3F40088A7D0 /* GnomeFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GnomeFetchedResultsController.swift; sourceTree = "<group>"; };
+		DBA198D61E21B13E00A33106 /* Altran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Altran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA198D91E21B13E00A33106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBA198DE1E21B13E00A33106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA198E11E21B13E00A33106 /* Altran.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Altran.xcdatamodel; sourceTree = "<group>"; };
+		DBA198E31E21B13E00A33106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBA198E61E21B13E00A33106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBA198E81E21B13E00A33106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD0E1ED1E251C6E002C52E5 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBA198D31E21B13E00A33106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83CAA4F5E4A539044331FEB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88F84EF7E9EA647A66801759 /* Pods_Altran.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBA198CD1E21B13E00A33106 = {
+			isa = PBXGroup;
+			children = (
+				DBA198D81E21B13E00A33106 /* Altran */,
+				DBA198D71E21B13E00A33106 /* Products */,
+				F871E73E897342E13E164A27 /* Pods */,
+				83CAA4F5E4A539044331FEB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBA198D71E21B13E00A33106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA198D61E21B13E00A33106 /* Altran.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBA198D81E21B13E00A33106 /* Altran */ = {
+			isa = PBXGroup;
+			children = (
+				DBA198E81E21B13E00A33106 /* Info.plist */,
+				DBA198D91E21B13E00A33106 /* AppDelegate.swift */,
+				DBA198E31E21B13E00A33106 /* Assets.xcassets */,
+				DBA198E01E21B13E00A33106 /* Altran.xcdatamodeld */,
+				DBA198E51E21B13E00A33106 /* LaunchScreen.storyboard */,
+				DBA198DD1E21B13E00A33106 /* Main.storyboard */,
+				DB2D5ED41E2280B7008C61EA /* GnomeListTableViewController.swift */,
+				DB2D5ED61E228104008C61EA /* GnomeDetailsViewController.swift */,
+				DB2D5EDA1E22870E008C61EA /* GnomeList.swift */,
+				DB7E85431E23DED80088A7D0 /* Gnome.swift */,
+				DB2D5EE41E228BE6008C61EA /* Gnomes.swift */,
+				DB2D5EE61E22AB79008C61EA /* GnomesTableView.swift */,
+				DB2D5EEA1E22CCB6008C61EA /* GnomeTableViewCell.swift */,
+				DB7E85451E23E3F40088A7D0 /* GnomeFetchedResultsController.swift */,
+				DB0B89B71E2429D0005EA0B9 /* ArrayExtension.swift */,
+				DBD0E1ED1E251C6E002C52E5 /* NetworkManager.swift */,
+			);
+			path = Altran;
+			sourceTree = "<group>";
+		};
+		F871E73E897342E13E164A27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72FDA689A27009F00EDC1860 /* Pods-Altran.debug.xcconfig */,
+				3FC3A7C9599261ED86CB85C3 /* Pods-Altran.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBA198D51E21B13E00A33106 /* Altran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA198EB1E21B13E00A33106 /* Build configuration list for PBXNativeTarget "Altran" */;
+			buildPhases = (
+				DBA198D21E21B13E00A33106 /* Sources */,
+				DBA198D31E21B13E00A33106 /* Frameworks */,
+				DBA198D41E21B13E00A33106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Altran;
+			productName = Altran;
+			productReference = DBA198D61E21B13E00A33106 /* Altran.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBA198CE1E21B13E00A33106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cesar Vilera";
+				TargetAttributes = {
+					DBA198D51E21B13E00A33106 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DBA198D11E21B13E00A33106 /* Build configuration list for PBXProject "Altran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBA198CD1E21B13E00A33106;
+			productRefGroup = DBA198D71E21B13E00A33106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBA198D51E21B13E00A33106 /* Altran */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBA198D41E21B13E00A33106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA198E71E21B13E00A33106 /* LaunchScreen.storyboard in Resources */,
+				DBA198E41E21B13E00A33106 /* Assets.xcassets in Resources */,
+				DBA198DF1E21B13E00A33106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBA198D21E21B13E00A33106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD0E1EE1E251C6E002C52E5 /* NetworkManager.swift in Sources */,
+				DB2D5ED71E228104008C61EA /* GnomeDetailsViewController.swift in Sources */,
+				DB2D5ED51E2280B7008C61EA /* GnomeListTableViewController.swift in Sources */,
+				DB2D5EEB1E22CCB6008C61EA /* GnomeTableViewCell.swift in Sources */,
+				DBA198E21E21B13E00A33106 /* Altran.xcdatamodeld in Sources */,
+				DBA198DA1E21B13E00A33106 /* AppDelegate.swift in Sources */,
+				DB7E85461E23E3F40088A7D0 /* GnomeFetchedResultsController.swift in Sources */,
+				DB2D5EE71E22AB79008C61EA /* GnomesTableView.swift in Sources */,
+				DB7E85441E23DED80088A7D0 /* Gnome.swift in Sources */,
+				DB2D5EE51E228BE6008C61EA /* Gnomes.swift in Sources */,
+				DB2D5EDB1E22870E008C61EA /* GnomeList.swift in Sources */,
+				DB0B89B81E2429D0005EA0B9 /* ArrayExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBA198DD1E21B13E00A33106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA198DE1E21B13E00A33106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBA198E51E21B13E00A33106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBA198E61E21B13E00A33106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBA198E91E21B13E00A33106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBA198EA1E21B13E00A33106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBA198EC1E21B13E00A33106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72FDA689A27009F00EDC1860 /* Pods-Altran.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Altran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cv.Altran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBA198ED1E21B13E00A33106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC3A7C9599261ED86CB85C3 /* Pods-Altran.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Altran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cv.Altran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBA198D11E21B13E00A33106 /* Build configuration list for PBXProject "Altran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA198E91E21B13E00A33106 /* Debug */,
+				DBA198EA1E21B13E00A33106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA198EB1E21B13E00A33106 /* Build configuration list for PBXNativeTarget "Altran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA198EC1E21B13E00A33106 /* Debug */,
+				DBA198ED1E21B13E00A33106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBA198E01E21B13E00A33106 /* Altran.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBA198E11E21B13E00A33106 /* Altran.xcdatamodel */,
+			);
+			currentVersion = DBA198E11E21B13E00A33106 /* Altran.xcdatamodel */;
+			path = Altran.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBA198CE1E21B13E00A33106 /* Project object */;
+}
